@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
         inv<<-NULL
       }
       
-      ##If the matrix already exsits, get the value from the cache using get function
+      ##If the matrix already exists, get the value from the cache using get function
       get<-function()x
       
       ##Stores the inverse value using setinverse
